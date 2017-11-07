@@ -1,0 +1,278 @@
+/*
+Template Name: Wunderlist
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+/* Landscape phones and smaller */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1070px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .gallery-list .image-grid {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
+
+@media (max-width: 991px) {
+    .tv-section-padding {
+        padding-top: 75px;
+    }
+    .tv-banner-title h1 {
+        font-size: 2.5em;
+        letter-spacing: 5px;
+    }
+    h5 {
+        font-size: 13px;
+    }
+    .banner-full-image {
+        height: 500px;
+    }
+    .tv-text-head > h2 {
+        font-size: 1.8em;
+        letter-spacing: 2px;
+        line-height: 1;
+        padding-left: 20px;
+    }
+    .tv-price {
+        margin: 25px 0;
+    }
+    .tv-text {
+        margin-bottom: 25px;
+    }
+    .tv-adv-full-banner h3 {
+        font-size: 1.5em;
+        letter-spacing: 2px;
+    }
+    .gallery-list .image-grid {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .image-grid:nth-child(-n+7) {
+        margin-bottom: 10px;
+    }
+    #subscribe h4 {
+        font-size: 1.02em;
+    }
+    .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+        margin-left: 10px;
+    }
+    .tv-link-button {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .divider-65 {
+        height: 40px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .tv-section-padding {
+        padding-top: 65px;
+    }
+    .tv-banner-title h1 {
+        font-size: 2.4em;
+        letter-spacing: 3px;
+    }
+
+    .tv-text-head > h2 {
+        font-size: 1.5em;
+    }
+    .navbar-default .navbar-brand {
+        margin-left: 10px;
+    }
+    .navbar-default {
+        padding: 15px 0;
+
+    }
+    .navbar {
+        min-height: auto;
+    }
+    .navbar-nav > li {
+        padding-left: 15px;
+    }
+    .navbar-nav > li + li {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .navbar-collapse {
+        border-top: none;
+        /*margin-top: 20px;*/
+    }
+
+    .banner-full-image {
+        height: 450px;
+        margin-top: 50px;
+    }
+
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image-grid:nth-child(-n+7) {
+        margin-bottom: 0;
+    }
+    .gallery-list .image-grid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tv-view {
+        float: none;
+        width: 100%;
+    }
+    .tv-offspace-75 {
+        margin-top: 35px;
+    }
+    footer {
+        padding: 50px 0 20px;
+    }
+    .copyright {
+        font-size: 1.02em;
+    }
+
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+    #about .tv-width-set-33 {
+        width: 25%;
+    }
+    .tv-view {
+        float: left;
+        width: 33.33%;
+    }
+    .tv-width-set-33 {
+        width: 33.33%;
+    }
+    .tv-width-set-50 {
+        width: 50%;
+    }
+    #subscribe h4 {
+        line-height: 15px;
+    }
+    .tv-offspace-75 {
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 600px) {
+    #subscribe h4 {
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .tv-banner-title h1 {
+        font-size: 1.6em;
+        letter-spacing: 2px;
+    }
+    .tv-text-head > h2 {
+        letter-spacing: 1px;
+    }
+    h5 {
+        font-size: 11px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        line-height: 18px;
+    }
+    .tv-desc {
+        font-size: 1em;
+        line-height: 22px;
+    }
+    .tv-pos-center .nav > li > a {
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+    .tv-pos-center .nav-pills > li + li {
+        margin-left: 10px;
+    }
+    .tv-pos-center .nav-pills > li {
+        padding-right: 20px;
+    }
+    .tv-pos-center .nav-pills > li::after {
+        font-size: 0.7em;
+    }
+    .tv-offspace-65 {
+        margin-top: 50px;
+    }
+    .tv-room-image-inner > h2 {
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .tv-room-image > img {
+        max-height: 300px;
+    }
+    .tv-price {
+        margin: 20px 0;
+        font-size: 1.8em;
+    }
+    .tv-text {
+        font-size: 1.05em;
+        line-height: 20px;
+        width: 90%;
+    }
+    .media-body, .media-left, .media-right {
+        display: block;
+    }
+    .media-body {
+        width: auto;
+    }
+    .tv-adv-image {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .tv-adv-full-banner h3 {
+        font-size: 1.2em;
+        letter-spacing: 1px;
+        line-height: 22px;
+    }
+    .tv-blog-box {
+        margin-bottom: 25px;
+    }
+    .tv-blog-box h5 {
+        margin-top: 10px;
+    }
+    .tv-view + .tv-view {
+        margin-top: 20px;
+    }
+    #tv-reservation-form .form-control {
+        height: 35px;
+    }
+    #tv-reservation-form .form-group {
+        margin-bottom: 30px;
+    }
+    .tv-form-banner {
+        padding: 55px 0;
+    }
+    #subscribe h4 {
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+    .tv-footer-contact-list > li {
+        font-size: 1em;
+        height: 22px;
+        line-height: 22px;
+    }
+    .tv-footer-contact-list img {
+        max-width: 22px;
+    }
+    .tv-footer-contact-list > li + li {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
